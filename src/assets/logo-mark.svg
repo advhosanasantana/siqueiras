@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Siqueira Advocacia">
+  <defs>
+    <linearGradient id="gold2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5d27a"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="65%" stop-color="#a8842b"/>
+      <stop offset="100%" stop-color="#e8c46a"/>
+    </linearGradient>
+    <linearGradient id="goldSoft2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c46a"/>
+      <stop offset="100%" stop-color="#b8902f"/>
+    </linearGradient>
+  </defs>
+  <path d="M70 75 Q200 20 330 75" fill="none" stroke="url(#gold2)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="92" y1="82" x2="92" y2="110" stroke="url(#gold2)" stroke-width="3"/>
+  <circle cx="92" cy="78" r="5" fill="none" stroke="url(#gold2)" stroke-width="3"/>
+  <path d="M55 110 Q92 160 129 110 Q92 125 55 110 Z" fill="url(#goldSoft2)" stroke="url(#gold2)" stroke-width="2"/>
+  <line x1="308" y1="82" x2="308" y2="110" stroke="url(#gold2)" stroke-width="3"/>
+  <circle cx="308" cy="78" r="5" fill="none" stroke="url(#gold2)" stroke-width="3"/>
+  <path d="M271 110 Q308 160 345 110 Q308 125 271 110 Z" fill="url(#goldSoft2)" stroke="url(#gold2)" stroke-width="2"/>
+  <text x="200" y="150" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-weight="700" font-size="240"
+        fill="url(#gold2)">S</text>
+</svg>

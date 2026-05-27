@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Siqueira Advocacia">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5d27a"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="65%" stop-color="#a8842b"/>
+      <stop offset="100%" stop-color="#e8c46a"/>
+    </linearGradient>
+    <linearGradient id="goldSoft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c46a"/>
+      <stop offset="100%" stop-color="#b8902f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Scales beam -->
+  <path d="M70 165 Q200 110 330 165" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Left chain -->
+  <line x1="92" y1="172" x2="92" y2="200" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="92" cy="168" r="5" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <!-- Left pan -->
+  <path d="M55 200 Q92 250 129 200 Q92 215 55 200 Z" fill="url(#goldSoft)" stroke="url(#gold)" stroke-width="2"/>
+  <!-- Right chain -->
+  <line x1="308" y1="172" x2="308" y2="200" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="308" cy="168" r="5" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <!-- Right pan -->
+  <path d="M271 200 Q308 250 345 200 Q308 215 271 200 Z" fill="url(#goldSoft)" stroke="url(#gold)" stroke-width="2"/>
+
+  <!-- Letter S (serif) -->
+  <text x="200" y="240" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-weight="700" font-size="240"
+        fill="url(#gold)"
+        style="paint-order:stroke;stroke:#8b6914;stroke-width:1.5">S</text>
+
+  <!-- Wordmark -->
+  <text x="200" y="345" text-anchor="middle"
+        font-family="'Cormorant Garamond', Georgia, serif"
+        font-weight="600" font-size="64"
+        letter-spacing="6"
+        fill="currentColor">SIQUEIRA</text>
+
+  <!-- Divider with diamond -->
+  <line x1="110" y1="378" x2="178" y2="378" stroke="url(#gold)" stroke-width="1.5"/>
+  <line x1="222" y1="378" x2="290" y2="378" stroke="url(#gold)" stroke-width="1.5"/>
+  <path d="M200 372 L208 378 L200 384 L192 378 Z" fill="url(#gold)"/>
+
+  <!-- Subtitle -->
+  <text x="200" y="410" text-anchor="middle"
+        font-family="'Inter', sans-serif"
+        font-weight="500" font-size="22"
+        letter-spacing="10"
+        fill="url(#gold)">ADVOCACIA</text>
+</svg>
